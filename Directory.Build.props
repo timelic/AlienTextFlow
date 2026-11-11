@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Deterministic>true</Deterministic>
+    <GameApp Condition="'$(GameApp)' == ''">$(HOME)/Library/Application Support/Steam/steamapps/common/Message From Aliens/mac.app</GameApp>
+    <GameManaged>$(GameApp)/Contents/Resources/Data/Managed</GameManaged>
+  </PropertyGroup>
+</Project>

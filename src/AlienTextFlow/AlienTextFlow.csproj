@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <Version>0.2.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <GameReference Include="$(GameManaged)/UnityEngine*.dll;$(GameManaged)/Unity.TextMeshPro.dll;$(GameManaged)/Assembly-CSharp.dll;$(GameManaged)/Newtonsoft.Json.dll" />
+    <Reference Include="@(GameReference)"><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="CheckGame" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(GameManaged)/Assembly-CSharp.dll')" Text="Game not found. Set GameApp to the mac.app bundle path." />
+  </Target>
+</Project>

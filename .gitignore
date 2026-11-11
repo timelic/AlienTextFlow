@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+work/
+dist/
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.sav
+*.app/
+*.dll
+*.pdb

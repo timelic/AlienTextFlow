@@ -1,0 +1,225 @@
+{
+  "status": "passed",
+  "version": "0.2.0",
+  "samples": [
+    {
+      "sample": "中文",
+      "axisWidth": 100,
+      "chosen": 24.0,
+      "rendered": 45.84375,
+      "height": 23.16211,
+      "gap": null,
+      "chineseCount": 2,
+      "missing": 0,
+      "lineCount": 1
+    },
+    {
+      "sample": "英文测试",
+      "axisWidth": 100,
+      "chosen": 24.0,
+      "rendered": 95.23242,
+      "height": 23.2324219,
+      "gap": null,
+      "chineseCount": 4,
+      "missing": 0,
+      "lineCount": 1
+    },
+    {
+      "sample": "中文译注字",
+      "axisWidth": 80,
+      "chosen": 24.0,
+      "rendered": 93.87305,
+      "height": 23.2324219,
+      "gap": null,
+      "chineseCount": 5,
+      "missing": 0,
+      "lineCount": 1
+    },
+    {
+      "sample": "WenYuan文渊字体",
+      "axisWidth": 75,
+      "chosen": 17.3,
+      "rendered": 100.162643,
+      "height": 16.69602,
+      "gap": null,
+      "chineseCount": 4,
+      "missing": 0,
+      "lineCount": 1
+    },
+    {
+      "sample": "MMMM",
+      "axisWidth": 100,
+      "chosen": 24.0,
+      "rendered": 79.60547,
+      "height": 18.4335938,
+      "gap": null,
+      "chineseCount": 0,
+      "missing": 0,
+      "lineCount": 1
+    },
+    {
+      "sample": "MMMMMM",
+      "axisWidth": 85,
+      "chosen": 24.0,
+      "rendered": 94.55859,
+      "height": 18.4335938,
+      "gap": null,
+      "chineseCount": 0,
+      "missing": 0,
+      "lineCount": 1
+    },
+    {
+      "sample": "MMMMMMMMMMMMMMMMMMMM",
+      "axisWidth": 75,
+      "chosen": 18.2904377,
+      "rendered": 98.525444,
+      "height": 29.1939659,
+      "gap": 1.09742546,
+      "chineseCount": 0,
+      "missing": 0,
+      "lineCount": 2
+    },
+    {
+      "sample": "这是一个非常长的中文译注用于确认最终能够缩小字号",
+      "axisWidth": 75,
+      "chosen": 11.0555553,
+      "rendered": 99.43521,
+      "height": 22.088871,
+      "gap": 0.6633328,
+      "chineseCount": 24,
+      "missing": 0,
+      "lineCount": 2
+    },
+    {
+      "sample": "中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中",
+      "axisWidth": 75,
+      "chosen": 5.306667,
+      "rendered": 98.98438,
+      "height": 10.557292,
+      "gap": 0.399999678,
+      "chineseCount": 49,
+      "missing": 0,
+      "lineCount": 2
+    },
+    {
+      "sample": "hello world",
+      "axisWidth": 85,
+      "chosen": 24.0,
+      "rendered": 91.7321243,
+      "height": 18.84375,
+      "gap": null,
+      "chineseCount": 0,
+      "missing": 0,
+      "lineCount": 1
+    },
+    {
+      "sample": "混合 Latin 123",
+      "axisWidth": 75,
+      "chosen": 23.35,
+      "rendered": 99.4742,
+      "height": 22.5348053,
+      "gap": null,
+      "chineseCount": 2,
+      "missing": 0,
+      "lineCount": 1
+    }
+  ],
+  "wrapping": {
+    "samples": [
+      {
+        "sample": "中文译注字",
+        "size": 16.0,
+        "spacing": 0.0,
+        "lines": 1,
+        "width": 58.75,
+        "height": 15.4882813,
+        "gap": null
+      },
+      {
+        "sample": "中文译注字体",
+        "size": 16.4813652,
+        "spacing": -41.99823,
+        "lines": 2,
+        "width": 48.55484,
+        "height": 32.833004,
+        "gap": 0.9888828
+      },
+      {
+        "sample": "中文译注字体测试",
+        "size": 16.4813652,
+        "spacing": -41.9982376,
+        "lines": 2,
+        "width": 48.93308,
+        "height": 32.833,
+        "gap": 0.9888809
+      },
+      {
+        "sample": "hello world",
+        "size": 18.35,
+        "spacing": 0.0,
+        "lines": 1,
+        "width": 59.10352,
+        "height": 14.2776985,
+        "gap": null
+      },
+      {
+        "sample": "hello worlds",
+        "size": 20.0,
+        "spacing": -57.19238,
+        "lines": 2,
+        "width": 39.85699,
+        "height": 32.3230476,
+        "gap": 1.20000076
+      },
+      {
+        "sample": "electromagnetism",
+        "size": 18.7911835,
+        "spacing": -60.68359,
+        "lines": 2,
+        "width": 55.84809,
+        "height": 32.8330078,
+        "gap": 1.127472
+      },
+      {
+        "sample": "这是（一个）测试。",
+        "size": 15.92,
+        "spacing": -39.70331,
+        "lines": 2,
+        "width": 53.55509,
+        "height": 32.5075836,
+        "gap": 0.9552007
+      },
+      {
+        "sample": "Latin 混合译注 123",
+        "size": 16.49754,
+        "spacing": -45.3935356,
+        "lines": 2,
+        "width": 50.5355721,
+        "height": 32.8330078,
+        "gap": 0.9898552
+      },
+      {
+        "sample": "中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中中",
+        "size": 3.184,
+        "spacing": -36.53405,
+        "lines": 2,
+        "width": 59.390625,
+        "height": 6.494375,
+        "gap": 0.4000002
+      }
+    ],
+    "inputModelPreserved": true,
+    "caretRowsPassed": true
+  },
+  "benchmark": {
+    "labelCount": 216,
+    "uniqueTexts": 36,
+    "pageMilliseconds": 82.9829,
+    "pageMeasurements": 90,
+    "typingKeystrokes": 49,
+    "typingMean": 0.63559387755102048,
+    "typingMax": 5.6696,
+    "steadyMilliseconds": 0.036616666666666665,
+    "steadyMeasurements": 0
+  }
+}
