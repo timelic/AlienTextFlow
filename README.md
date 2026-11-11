@@ -1,8 +1,10 @@
 # AlienTextFlow
 
-《外星来信 / Message From Aliens》的译注字体 Mod，目标环境是 macOS 27、Apple Silicon 和游戏当前的 Unity 6000.6.8f1 Mono 版本。
+《外星来信 / Message From Aliens》的译注字体 Mod。
 
-当前版本：**0.2.0** · [下载与发布记录](https://github.com/timelic/AlienTextFlow/releases) · 代码采用 MIT 许可证，字体保留各自的 SIL OFL 许可证。当前安装器仅支持 macOS，Windows 尚未适配。
+<img width="768" height="556" alt="2026-11-11_16 59 02" src="https://github.com/user-attachments/assets/f2958b5f-2db4-4f3f-80f8-3562d6c0a98c" />
+
+当前安装器仅支持 macOS，Windows 尚未适配。
 
 字格宽度、字高上限、外星字位置和原来的翻页／点击行为保留。短译注使用正常宽度；长译注使用字体真实 `wdth` 轴的 95、90、85、80、75 实例。单行达到压窄下限后仍需缩字号时，比较单行与两行：两行能明显增大实际字号、完整容纳文字且行间不重叠，才采用两行，否则保留单行。关闭 TMP 的几何横向压缩，不通过 Transform 拉扁字形。
 
